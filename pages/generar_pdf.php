@@ -26,7 +26,7 @@ class PDF extends FPDF{
     } else {
         $str = <<<RESP
         <h3>No ha ingresado datos personales. No se puede generar PDF</h3>
-        <p>Para ingresar los datos de clic <a href="index.html">aquí</a></p>
+        <p>Para ingresar los datos de clic <a href="formulario.html">aquí</a></p>
     RESP;
         echo $str;
     }
